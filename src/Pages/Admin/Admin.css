@@ -1,0 +1,45 @@
+.list_item{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 15px;
+    margin-bottom: 30px;
+    color: rgb(95, 94, 94);
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+.list_item:hover{
+     background: var(--bg-color);
+
+    color: white;
+    border-radius: 10px;
+}
+
+.admin_panel{
+    width: 20%;
+    /* background: green; */
+    padding: 20px 30px;
+    box-shadow: 0px 3px 10px grey;
+
+}
+
+.admin_container{
+    display: flex;
+    height: 100vh;
+}
+
+.admin_dashboard{
+    width: 80%;
+    padding: 20px 30px;
+}
+
+.admin_heading{
+    padding: 10px 20px;
+    font-size: 30px;
+    color: rgb(81, 80, 80);
+    margin-bottom: 15px;
+    border-bottom: 1px solid grey;
+}
+
+

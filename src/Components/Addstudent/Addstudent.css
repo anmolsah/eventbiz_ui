@@ -1,0 +1,70 @@
+.stu_form_con{
+   box-shadow: 2px 2px 9px grey;
+    padding: 14px 16px;
+    border-radius: 20px;
+    background: rgb(65,105,225);
+background: linear-gradient(159deg, rgba(65,105,225,1) 0%, rgba(137,207,240,1) 100%);
+}
+
+.stu_form{
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+}
+
+#cross_icon{
+    color: rgb(255, 255, 255);
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.name_form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 13px;
+    margin-bottom: -10px;
+}
+
+.name_form label{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.parents_con{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+    justify-content: start;
+}
+
+
+#stu_submit{
+    background: white;
+    padding: 12px 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#stu_submit:hover{
+    background: rgb(12, 203, 12);
+    color: white;
+   
+}
+
+.button_submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+select{
+    padding: 4px 6px;
+    border-radius: 10px;
+}

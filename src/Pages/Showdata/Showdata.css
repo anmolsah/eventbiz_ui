@@ -1,0 +1,17 @@
+.data_main{
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #888;
+  padding: 8px;
+  text-align: left;
+}

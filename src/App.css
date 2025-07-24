@@ -1,0 +1,32 @@
+button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 6px rgb(236, 239, 236);
+    padding: 20px 30px;
+    justify-content: space-evenly;
+}
+
+
+.nav_list{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    padding: 10px 12px;
+}
+
+.nav_list a{
+    text-decoration: none;
+    color: black;
+    background: rgb(233, 230, 230);
+    padding: 10px 12px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px rgb(236, 239, 236);
+
+}

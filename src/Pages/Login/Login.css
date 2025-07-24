@@ -1,0 +1,100 @@
+.main{
+    background-image: url('https://rare-gallery.com/uploads/posts/519127-academic-baltimore.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+  
+}
+
+.login_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_container{
+    background: white;
+    padding: 20px 40px;
+    width: 350px;
+    margin-top: 200px;
+    /* height: 700px; */
+    border-radius: 10px;
+
+}
+
+.login_head{
+    text-align: center;
+}
+
+#login_cap_icon{
+    background: rgb(84, 84, 244);
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#login_head_name{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+
+#login_head_para{
+    font-size: 12px;
+    margin-bottom: 30px;
+    opacity: 0.7;
+}
+
+.input_dets{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+input{
+    padding: 5px 8px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-top: 8px;
+}
+
+#login_select_name{
+    margin-bottom: 8px;
+}
+
+.login_Select_icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login_select{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 10px 8px;
+}
+
+#login_icon{
+    font-size: 25px;
+    padding: 6px 15px;
+    cursor: pointer;
+}
+
+#signin_btn{
+    background: rgb(84, 84, 244);
+    color: white;
+    padding: 5px 8px;
+    width: 100%;
+    justify-content: center;
+    display: block;
+    margin: 20px auto;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}

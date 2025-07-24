@@ -1,0 +1,35 @@
+.flex_col{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_main{
+  
+    background-image: linear-gradient(to right top, #17e8a2, #10e594, #12e185, #1add75, #24d964);
+     box-shadow: 2px 2px 9px grey;
+     padding: 16px 20px;
+     border-radius: 10px;
+}
+
+.form_main form{
+    
+    width: 400px;
+    
+}
+
+.main_form_con{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_col label{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+  
+    margin-top: 10px;
+}
+
+input{
+    border-radius: 20px;
+}

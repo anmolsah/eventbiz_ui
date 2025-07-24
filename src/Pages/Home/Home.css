@@ -1,0 +1,176 @@
+.Home_page_form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    padding: 20px 30px;
+    height: 100vh;
+}
+
+.swipe_container{
+ background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+ box-shadow: -7px -14px 22px rgb(164, 164, 164);
+}
+
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.home_flex{
+    display: flex;
+}
+
+.main_container_home{
+    background: white;
+}
+
+.flex_input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.home_submit{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.home_submit button{
+    padding: 10px 12px;
+    height: 40px;
+    font-size: 12px;
+    background: rgb(6, 177, 6);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 50px;
+}
+
+.pageup, .pagedown {
+  transition: all 1s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.pageup {
+  transform: translateY(0%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pagedown {
+  background-image: none;
+  transform: translateY(-100%);
+}
+
+.main_image{
+    position: absolute;
+    z-index: 2;
+}
+
+.main_button{
+    z-index: 3;
+    position: relative;
+    top: 90%;
+    left: 45%;
+    background: rgb(100, 100, 247);
+    padding: 10px 12px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    height: 50px;
+}
+
+.main_img_home{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.event_grid_home{
+    padding: 10px 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     gap: 20px;
+}
+
+.grid_item_home{
+   padding: 10px 16px;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px rgb(213, 212, 212);
+}
+
+#event_status_id_home{
+    color: white;
+    width: 60px;
+    border-radius: 10px;
+    padding: 5px 8px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#event_desc_home{
+    font-style: italic;
+    font-weight: 200;
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
+}
+
+#home_join_btn{
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+    background: rgb(100, 100, 247);
+    font-size: 10px;
+}
+
+@media (max-width:940px){
+
+    #main_image_home{
+        width: 300px;
+        height: 300px;
+    }
+
+    #event_status_id_home{
+        font-size: 10px;
+    }
+
+    #event_desc_home{
+        font-size: 10px;
+    }
+
+    .icon_event{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width:600px){
+
+    .event_grid_home{
+        grid-template-columns: 1fr;
+    }
+
+
+
+}
+
+@media (max-width:380px){
+
+  
+    #main_image_home .Home_page_form{
+        display: none;
+    }
+
+
+}

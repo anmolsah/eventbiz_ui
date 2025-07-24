@@ -1,0 +1,125 @@
+.add_faculty{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 20px;
+}
+
+#add_faculty{
+    color: rgb(14, 209, 46);
+}
+
+#add_fac_btn{
+    background: rgb(14, 209, 46);
+    color: white;
+    padding: 10px 8px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.faculty_nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#fac_icon_id{
+    background: rgb(14, 209, 46);
+    color: white;
+    padding: 16px 16px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+#fac_nav_name{
+    font-weight: 600;
+    font-weight: 20px;
+}
+
+#fac_nav_role{
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.fac_main_dets{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.faculty_sec{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.faculty_sec p span{
+    font-weight: 600;
+}
+
+#dr_p{
+    background: rgb(14, 209, 46);
+    color: white;
+    display: inline;
+    padding: 16px 16px;
+}
+
+#fac_icons_data{
+     color: rgb(14, 209, 46);
+
+     margin-right: 10px;
+}
+
+.faculty_con{
+    display: flex;
+    gap: 30px;
+}
+
+.fac_sec_list_data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.fac_sec_list_datas{
+display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-top: 30px;
+    padding: 10px 12px;
+    max-height: 550px;
+    overflow-y: scroll;
+}
+
+.fac_sec_list_data{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    background: rgb(253, 253, 253);
+    padding: 12px 16px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px grey;
+}
+
+.fac_sec_list_data:hover{
+    background:  rgb(21, 202, 87);
+   color: white;
+}
+
+.faculty_left{
+    border-right: 1px solid grey;
+    padding: 20px 30px;
+}
+
+.faculty_sec{
+    /* //border: 1px solid grey; */
+     padding: 20px 30px;
+     box-shadow: 2px 2px 9px rgb(203, 203, 203);
+     border-radius: 15px;
+     margin-top: 40px;
+}
